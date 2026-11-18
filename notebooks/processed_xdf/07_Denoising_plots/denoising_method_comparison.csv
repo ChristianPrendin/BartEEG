@@ -1,0 +1,25 @@
+method,artifact_class,Artifact-band attenuation (dB),SNR improvement (dB),RMS reduction (dB)
+Wavelet,blink,0.31,0.12,0.55
+Wavelet,look_left,0.26,0.1,0.34
+Wavelet,look_right,0.28,0.12,0.35
+Wavelet,horiz_head,0.2,0.49,0.72
+Wavelet,vert_head,0.1,0.1,0.15
+Wavelet,clench,10.0,0.12,0.19
+ASR,blink,4.2,1.73,4.81
+ASR,look_left,7.2,3.1,8.34
+ASR,look_right,4.91,2.15,6.63
+ASR,horiz_head,9.93,5.94,10.05
+ASR,vert_head,10.79,8.4,12.93
+ASR,clench,2.93,9.36,13.43
+Wavelet+ASR,blink,4.72,1.84,5.7
+Wavelet+ASR,look_left,7.68,3.2,9.2
+Wavelet+ASR,look_right,5.42,2.3,7.5
+Wavelet+ASR,horiz_head,10.4,6.35,11.37
+Wavelet+ASR,vert_head,11.09,8.6,13.61
+Wavelet+ASR,clench,12.29,9.73,14.41
+Autoencoder,blink,9.19,1.94,7.19
+Autoencoder,look_left,10.92,3.31,9.28
+Autoencoder,look_right,10.45,2.12,8.52
+Autoencoder,horiz_head,11.87,5.49,9.62
+Autoencoder,vert_head,12.08,7.94,11.33
+Autoencoder,clench,-2.95,7.93,10.94

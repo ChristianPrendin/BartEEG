@@ -1,0 +1,14 @@
+matplotlib
+mne
+numpy
+pandas
+pyxdf
+scipy
+scikit-learn
+seaborn
+xgboost
+torch
+pywavelets
+meegkit
+nbformat
+shap

@@ -1,0 +1,9 @@
+model,accuracy,f1_macro,notes
+Thresholding (binary),0.7759,0.7706,binary only; rules fitted on training rest
+RF chained (03_RandomForest),0.7259,0.6196,Random Forest hierarchical pipeline
+Flat XGBoost (7-class),0.7530215449290594,0.6522323300037215,"single XGBoost, balanced train"
+Stage 1 only,0.8808022420739183,0.8807865497316709,XGBoost binary; ROC-AUC=0.9538
+Stage 2,0.9349923819197562,0.9349762641898864,ocular vs head_muscle (true-label test windows)
+Stage 3a (ocular),0.8309146135673304,0.8308793307932216,blink / look_left / look_right
+Stage 3b (head/musc),0.6936141304347826,0.6921229227908192,horiz_head / vert_head / clench
+XGBoost chained pipeline,0.7498686284813453,0.6575548540183361,Stage1 -> Stage2 -> Stage3a/3b
